@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846ADE0D140A9BB200E04BAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846ADE0C140A9BB200E04BAD /* UIKit.framework */; };
+		846ADE0F140A9BB200E04BAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846ADE0E140A9BB200E04BAD /* Foundation.framework */; };
+		846ADE11140A9BB200E04BAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846ADE10140A9BB200E04BAD /* CoreGraphics.framework */; };
+		846ADE17140A9BB200E04BAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 846ADE15140A9BB200E04BAD /* InfoPlist.strings */; };
+		846ADE19140A9BB200E04BAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ADE18140A9BB200E04BAD /* main.m */; };
+		846ADE1D140A9BB200E04BAD /* ViewInteractionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ADE1C140A9BB200E04BAD /* ViewInteractionAppDelegate.m */; };
+		846ADE20140A9BB200E04BAD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846ADE1E140A9BB200E04BAD /* MainWindow.xib */; };
+		846ADE23140A9BB200E04BAD /* ViewInteractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ADE22140A9BB200E04BAD /* ViewInteractionViewController.m */; };
+		846ADE26140A9BB200E04BAD /* ViewInteractionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846ADE24140A9BB200E04BAD /* ViewInteractionViewController.xib */; };
+		846ADE2E140A9BB200E04BAD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846ADE2D140A9BB200E04BAD /* SenTestingKit.framework */; };
+		846ADE2F140A9BB200E04BAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846ADE0C140A9BB200E04BAD /* UIKit.framework */; };
+		846ADE30140A9BB200E04BAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846ADE0E140A9BB200E04BAD /* Foundation.framework */; };
+		846ADE31140A9BB200E04BAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846ADE10140A9BB200E04BAD /* CoreGraphics.framework */; };
+		846ADE39140A9BB200E04BAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 846ADE37140A9BB200E04BAD /* InfoPlist.strings */; };
+		846ADE3B140A9BB200E04BAD /* ViewInteractionTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 846ADE3A140A9BB200E04BAD /* ViewInteractionTests.h */; };
+		846ADE3D140A9BB200E04BAD /* ViewInteractionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ADE3C140A9BB200E04BAD /* ViewInteractionTests.m */; };
+		846ADE49140A9BD400E04BAD /* SegundoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ADE47140A9BD400E04BAD /* SegundoViewController.m */; };
+		846ADE4A140A9BD400E04BAD /* SegundoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846ADE48140A9BD400E04BAD /* SegundoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846ADE32140A9BB200E04BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846ADDFF140A9BB200E04BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846ADE07140A9BB200E04BAD;
+			remoteInfo = ViewInteraction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846ADE08140A9BB200E04BAD /* ViewInteraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewInteraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846ADE0C140A9BB200E04BAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		846ADE0E140A9BB200E04BAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		846ADE10140A9BB200E04BAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		846ADE14140A9BB200E04BAD /* ViewInteraction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewInteraction-Info.plist"; sourceTree = "<group>"; };
+		846ADE16140A9BB200E04BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		846ADE18140A9BB200E04BAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		846ADE1A140A9BB200E04BAD /* ViewInteraction-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewInteraction-Prefix.pch"; sourceTree = "<group>"; };
+		846ADE1B140A9BB200E04BAD /* ViewInteractionAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewInteractionAppDelegate.h; sourceTree = "<group>"; };
+		846ADE1C140A9BB200E04BAD /* ViewInteractionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewInteractionAppDelegate.m; sourceTree = "<group>"; };
+		846ADE1F140A9BB200E04BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		846ADE21140A9BB200E04BAD /* ViewInteractionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewInteractionViewController.h; sourceTree = "<group>"; };
+		846ADE22140A9BB200E04BAD /* ViewInteractionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewInteractionViewController.m; sourceTree = "<group>"; };
+		846ADE25140A9BB200E04BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewInteractionViewController.xib; sourceTree = "<group>"; };
+		846ADE2C140A9BB200E04BAD /* ViewInteractionTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewInteractionTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846ADE2D140A9BB200E04BAD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		846ADE36140A9BB200E04BAD /* ViewInteractionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewInteractionTests-Info.plist"; sourceTree = "<group>"; };
+		846ADE38140A9BB200E04BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		846ADE3A140A9BB200E04BAD /* ViewInteractionTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewInteractionTests.h; sourceTree = "<group>"; };
+		846ADE3C140A9BB200E04BAD /* ViewInteractionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewInteractionTests.m; sourceTree = "<group>"; };
+		846ADE46140A9BD400E04BAD /* SegundoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegundoViewController.h; sourceTree = "<group>"; };
+		846ADE47140A9BD400E04BAD /* SegundoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegundoViewController.m; sourceTree = "<group>"; };
+		846ADE48140A9BD400E04BAD /* SegundoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegundoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846ADE05140A9BB200E04BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846ADE0D140A9BB200E04BAD /* UIKit.framework in Frameworks */,
+				846ADE0F140A9BB200E04BAD /* Foundation.framework in Frameworks */,
+				846ADE11140A9BB200E04BAD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846ADE28140A9BB200E04BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846ADE2E140A9BB200E04BAD /* SenTestingKit.framework in Frameworks */,
+				846ADE2F140A9BB200E04BAD /* UIKit.framework in Frameworks */,
+				846ADE30140A9BB200E04BAD /* Foundation.framework in Frameworks */,
+				846ADE31140A9BB200E04BAD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846ADDFD140A9BB200E04BAD = {
+			isa = PBXGroup;
+			children = (
+				846ADE12140A9BB200E04BAD /* ViewInteraction */,
+				846ADE34140A9BB200E04BAD /* ViewInteractionTests */,
+				846ADE0B140A9BB200E04BAD /* Frameworks */,
+				846ADE09140A9BB200E04BAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846ADE09140A9BB200E04BAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846ADE08140A9BB200E04BAD /* ViewInteraction.app */,
+				846ADE2C140A9BB200E04BAD /* ViewInteractionTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846ADE0B140A9BB200E04BAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				846ADE0C140A9BB200E04BAD /* UIKit.framework */,
+				846ADE0E140A9BB200E04BAD /* Foundation.framework */,
+				846ADE10140A9BB200E04BAD /* CoreGraphics.framework */,
+				846ADE2D140A9BB200E04BAD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		846ADE12140A9BB200E04BAD /* ViewInteraction */ = {
+			isa = PBXGroup;
+			children = (
+				846ADE1B140A9BB200E04BAD /* ViewInteractionAppDelegate.h */,
+				846ADE1C140A9BB200E04BAD /* ViewInteractionAppDelegate.m */,
+				846ADE1E140A9BB200E04BAD /* MainWindow.xib */,
+				846ADE21140A9BB200E04BAD /* ViewInteractionViewController.h */,
+				846ADE22140A9BB200E04BAD /* ViewInteractionViewController.m */,
+				846ADE24140A9BB200E04BAD /* ViewInteractionViewController.xib */,
+				846ADE13140A9BB200E04BAD /* Supporting Files */,
+				846ADE46140A9BD400E04BAD /* SegundoViewController.h */,
+				846ADE47140A9BD400E04BAD /* SegundoViewController.m */,
+				846ADE48140A9BD400E04BAD /* SegundoViewController.xib */,
+			);
+			path = ViewInteraction;
+			sourceTree = "<group>";
+		};
+		846ADE13140A9BB200E04BAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				846ADE14140A9BB200E04BAD /* ViewInteraction-Info.plist */,
+				846ADE15140A9BB200E04BAD /* InfoPlist.strings */,
+				846ADE18140A9BB200E04BAD /* main.m */,
+				846ADE1A140A9BB200E04BAD /* ViewInteraction-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		846ADE34140A9BB200E04BAD /* ViewInteractionTests */ = {
+			isa = PBXGroup;
+			children = (
+				846ADE3A140A9BB200E04BAD /* ViewInteractionTests.h */,
+				846ADE3C140A9BB200E04BAD /* ViewInteractionTests.m */,
+				846ADE35140A9BB200E04BAD /* Supporting Files */,
+			);
+			path = ViewInteractionTests;
+			sourceTree = "<group>";
+		};
+		846ADE35140A9BB200E04BAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				846ADE36140A9BB200E04BAD /* ViewInteractionTests-Info.plist */,
+				846ADE37140A9BB200E04BAD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846ADE07140A9BB200E04BAD /* ViewInteraction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846ADE40140A9BB200E04BAD /* Build configuration list for PBXNativeTarget "ViewInteraction" */;
+			buildPhases = (
+				846ADE04140A9BB200E04BAD /* Sources */,
+				846ADE05140A9BB200E04BAD /* Frameworks */,
+				846ADE06140A9BB200E04BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewInteraction;
+			productName = ViewInteraction;
+			productReference = 846ADE08140A9BB200E04BAD /* ViewInteraction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846ADE2B140A9BB200E04BAD /* ViewInteractionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846ADE43140A9BB200E04BAD /* Build configuration list for PBXNativeTarget "ViewInteractionTests" */;
+			buildPhases = (
+				846ADE27140A9BB200E04BAD /* Sources */,
+				846ADE28140A9BB200E04BAD /* Frameworks */,
+				846ADE29140A9BB200E04BAD /* Resources */,
+				846ADE2A140A9BB200E04BAD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846ADE33140A9BB200E04BAD /* PBXTargetDependency */,
+			);
+			name = ViewInteractionTests;
+			productName = ViewInteractionTests;
+			productReference = 846ADE2C140A9BB200E04BAD /* ViewInteractionTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846ADDFF140A9BB200E04BAD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 846ADE02140A9BB200E04BAD /* Build configuration list for PBXProject "ViewInteraction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 846ADDFD140A9BB200E04BAD;
+			productRefGroup = 846ADE09140A9BB200E04BAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846ADE07140A9BB200E04BAD /* ViewInteraction */,
+				846ADE2B140A9BB200E04BAD /* ViewInteractionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846ADE06140A9BB200E04BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846ADE17140A9BB200E04BAD /* InfoPlist.strings in Resources */,
+				846ADE20140A9BB200E04BAD /* MainWindow.xib in Resources */,
+				846ADE26140A9BB200E04BAD /* ViewInteractionViewController.xib in Resources */,
+				846ADE4A140A9BD400E04BAD /* SegundoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846ADE29140A9BB200E04BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846ADE39140A9BB200E04BAD /* InfoPlist.strings in Resources */,
+				846ADE3B140A9BB200E04BAD /* ViewInteractionTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		846ADE2A140A9BB200E04BAD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846ADE04140A9BB200E04BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846ADE19140A9BB200E04BAD /* main.m in Sources */,
+				846ADE1D140A9BB200E04BAD /* ViewInteractionAppDelegate.m in Sources */,
+				846ADE23140A9BB200E04BAD /* ViewInteractionViewController.m in Sources */,
+				846ADE49140A9BD400E04BAD /* SegundoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846ADE27140A9BB200E04BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846ADE3D140A9BB200E04BAD /* ViewInteractionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846ADE33140A9BB200E04BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846ADE07140A9BB200E04BAD /* ViewInteraction */;
+			targetProxy = 846ADE32140A9BB200E04BAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846ADE15140A9BB200E04BAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846ADE16140A9BB200E04BAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		846ADE1E140A9BB200E04BAD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846ADE1F140A9BB200E04BAD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		846ADE24140A9BB200E04BAD /* ViewInteractionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846ADE25140A9BB200E04BAD /* en */,
+			);
+			name = ViewInteractionViewController.xib;
+			sourceTree = "<group>";
+		};
+		846ADE37140A9BB200E04BAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846ADE38140A9BB200E04BAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846ADE3E140A9BB200E04BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		846ADE3F140A9BB200E04BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846ADE41140A9BB200E04BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewInteraction/ViewInteraction-Prefix.pch";
+				INFOPLIST_FILE = "ViewInteraction/ViewInteraction-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		846ADE42140A9BB200E04BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewInteraction/ViewInteraction-Prefix.pch";
+				INFOPLIST_FILE = "ViewInteraction/ViewInteraction-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		846ADE44140A9BB200E04BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ViewInteraction.app/ViewInteraction";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewInteraction/ViewInteraction-Prefix.pch";
+				INFOPLIST_FILE = "ViewInteractionTests/ViewInteractionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		846ADE45140A9BB200E04BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ViewInteraction.app/ViewInteraction";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewInteraction/ViewInteraction-Prefix.pch";
+				INFOPLIST_FILE = "ViewInteractionTests/ViewInteractionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846ADE02140A9BB200E04BAD /* Build configuration list for PBXProject "ViewInteraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846ADE3E140A9BB200E04BAD /* Debug */,
+				846ADE3F140A9BB200E04BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846ADE40140A9BB200E04BAD /* Build configuration list for PBXNativeTarget "ViewInteraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846ADE41140A9BB200E04BAD /* Debug */,
+				846ADE42140A9BB200E04BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		846ADE43140A9BB200E04BAD /* Build configuration list for PBXNativeTarget "ViewInteractionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846ADE44140A9BB200E04BAD /* Debug */,
+				846ADE45140A9BB200E04BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846ADDFF140A9BB200E04BAD /* Project object */;
+}
